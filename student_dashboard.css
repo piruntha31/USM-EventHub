@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background-color: #333;
+    padding-bottom: 20px;
+    padding-top:20px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo-and-home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Added padding to space out the logo and home icon */
+}
+
+.system-logo {
+    font-size: 24px;
+    padding-left: 15px;
+}
+
+.home-icon {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 200px;
+    background-color: #f4f4f4;
+    position: fixed;
+    top: 68px;
+    overflow-x: hidden;
+    /* padding-top: 8px; */
+    z-index: 1; /* Ensure the sidebar is behind the content */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 15px;
+    text-align: center;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    transition: background-color 0.3s ease; /* Added transition for smoother color change */
+}
+
+.sidebar a:hover {
+    background-color: #333; /* Change the background color on hover */
+    color: white; /*Change the text color on hover if needed */
+}
+.content {
+    margin-left: 200px;
+    padding: 20px;
+    padding-top: 80px; /* Adjusted to accommodate the fixed navbar */
+}
+

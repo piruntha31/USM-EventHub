@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="student_dashboard.css"> <!-- Include your CSS file here -->
+    <title>Student Dashboard</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-and-home">
+            <div class="system-logo">System Logo</div>
+            <a href="student_homepage.html" class="home-icon">Home</a>
+        </div>
+    </div>
+    <div class="sidebar">
+        <ul>
+            <li><a href="javascript:void(0);" onclick="loadDashboard()">Dashboard</a></li>
+            <li><a href="javascript:void(0);" onclick="loadEvents()">Events</a></li>
+            <li><a href="javascript:void(0);" onclick="loadNotifications()">Notifications</a></li>
+            <li><a href="javascript:void(0);" onclick="loadProfile()">Profile</a></li>
+        </ul>
+    </div>
+   
+    <div class="content" id="content">
+        <!-- Content will be dynamically loaded here -->
+    </div>
+    <script src="student_dashboard.js"></script> <!-- Include your JavaScript file here -->
+</body>
+</html>
+

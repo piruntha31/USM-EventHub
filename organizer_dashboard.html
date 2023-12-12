@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="organizer_dashboard.css"> <!-- Include your CSS file here -->
+    <title>Organizer Dashboard</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-and-home">
+            <div class="system-logo">System Logo</div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <ul>
+            <li><a href="javascript:void(0);" onclick="loadPostEventForm()">Post Event Form</a></li>
+            <li><a href="javascript:void(0);" onclick="loadParticipantList()">Participant List</a></li>
+            <li><a href="javascript:void(0);" onclick="loadEventDashboard()">Event Dashboard</a></li>
+            <li><a href="javascript:void(0);" onclick="loadStatistics()">Statistics</a></li>
+        </ul>
+    </div>
+    <div class="content" id="content">
+        <!-- Content will be dynamically loaded here -->
+    </div>
+    <script src="organizer_dashboard.js"></script> <!-- Include your JavaScript file here -->
+</body>
+</html>

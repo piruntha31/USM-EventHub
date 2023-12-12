@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <title>Student Homepage</title>
+</head>
+<body>
+    <header>
+        <div class="logo">System Logo</div>
+        <div class="user-options">
+    <div class="notification-icon">Notification Icon</div>
+    <a href="student_dashboard.html" class="profile-icon">Profile Icon</a>
+</div>
+
+    </header>
+    <div class="search-bar">
+        <input type="text" id="search-events" placeholder="Search events">
+        <select id="event-category">
+            <option value="all">All Categories</option>
+            <!-- Add other categories here -->
+        </select>
+    </div>
+    <section class="event-list">
+        <h2>Upcoming Events</h2>
+        <!-- Example event card -->
+        <div class="event-card">
+            <img src="event-image.jpg" alt="Event Image">
+            <h3>Event Name</h3>
+            <p>Date: Event Date</p>
+            <p>Time: Event Time</p>
+            <p>Mode: Event Mode</p>
+            <p>Location: Event Location</p>
+            <p>Event Type: Paid</p>
+            <button class="like-button">Like</button>
+            <a href="event-details.html">See More</a>
+        </div>
+        <!-- Add more event cards here -->
+    </section>
+    <footer>
+        &copy; 2023 Your University
+    </footer>
+</body>
+</html>
